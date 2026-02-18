@@ -1,0 +1,31 @@
+{
+  "name": "abbacus-tech/magento2-customer-universal-password",
+  "description": "Magento 2 Universal Customer Password for staging/testing environments",
+  "type": "magento2-module",
+  "license": [
+    "proprietary"
+  ],
+  "version": "1.0.0",
+  "keywords": [
+    "magento2",
+    "customer",
+    "authentication",
+    "login",
+    "staging",
+    "testing",
+    "developer-tools"
+  ],
+  "require": {
+    "php": "^7.4 || ^8.1",
+    "magento/framework": "*",
+    "magento/module-customer": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magemonkeys\\UniversalPassword\\": ""
+    }
+  }
+}
